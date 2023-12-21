@@ -19,13 +19,13 @@ footer{
 }
 .centerdiv {
     position: absolute; 
-    bottom: 10px;
+    bottom: 40px;
     margin: auto;
 }
 
 .centerdiv ul {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     justify-content: space-evenly;
 }
 
@@ -60,6 +60,9 @@ footer{
 .fa-twitter {
     color: #1DA1F2;
 }
+.fa-github {
+    color: #2b3137;
+}
 
 .centerdiv ul li a:hover {
     color: white;
@@ -86,8 +89,7 @@ footer{
 }
 
 .centerdiv ul li:nth-child(1) a:hover {
-    background-color: #316FF6;
-    color: white;
+    background-color: #316FF6; 
 }
 
 .centerdiv ul li:nth-child(2) a:hover {
@@ -108,6 +110,10 @@ footer{
 
 .centerdiv ul li:nth-child(6) a:hover {
     background-color: #1DA1F2;
+}
+
+.centerdiv ul li:nth-child(7) a:hover {
+    background-color: #2b3137;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,400;1,500&family=Roboto+Slab:wght@700&family=Roboto:wght@500&family=Source+Code+Pro&display=swap');
