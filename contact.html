@@ -51,42 +51,28 @@
                     <img src="cross.png" alt="" class="cross" width="23px">
                 </div>
                 <div class="wow">
-                    <div class="contactForm">
-                        <h1>Contact me for work/General Enquiries</h1>
-                        <form>
-                            <div class="form-group">
-                                <label for="Name" class="NameAsk">Name</label>
-                                <input type="text" class="form-control" id="Name" aria-describedby="nameHelp"
-                                    placeholder="Enter Name">
+                    <div class="contactForm" style="position: relative">
+                        <div class="contact-container">
+                            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                                <div class="contact-left-title">
+                                    <h2>Get in touch</h2>
+                                    <hr>
 
-                            </div>
-                            <div class="form-group">
-                                <label for="clientemail" class="EmailAddrLeRha">Email address</label>
-                                <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp"
-                                    placeholder="Enter email">
-                                <div id="emailHelp" class="form-text text-muted">
-                                    We'll never share your email & phone with anyone else.
                                 </div>
+                                <input type="hidden" name="access_key" value="60aebaff-8aaf-4e7f-b925-b31b7dec8f4e">
+                                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                                <input type="email" name="email" placeholder="Your Email" class="contact-inputs"
+                                    required>
+                                <textarea name="message" class="contact-inputs" placeholder="Your Message"
+                                    required></textarea>
+                                
+                                    <button class="sub">Submit <img id="tamacha" src="arrow_icon.png" alt=""></button>
+                                
+                            </form>
+                            <div class="contact-right">
+                                <img id="randi" src="mail.png" alt="">
                             </div>
-                            <div class="form-group">
-                                <label for="clientphone">Phone</label>
-                                <input type="phone" class="form-control" id="clientphone" placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <label for="enquiry" class="NameAsk">Enquiry</label>
-                                <input type="text" class="form-control" id="enquiry" aria-describedby="nameHelp"
-                                    placeholder="Enter Queries">
-
-                            </div>
-                            <div id="form-check">
-                                <input type="checkbox" class="form-check-input" id="isclient">
-                                <label class="form-check-label" for="isclient">I want you to work on a project with
-                                    me.</label>
-                            </div>
-
-                            <button type="submit" class="btn btn-sm">Submit</button>
-
-                        </form>
+                        </div>
                     </div>
                     <footer>
                         <div class="centerdiv">
