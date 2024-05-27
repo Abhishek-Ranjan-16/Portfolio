@@ -1,114 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@500&family=Source+Code+Pro&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@500&family=Source+Code+Pro&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Code+Pro&display=swap");
     </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Code+Pro&display=swap');
-    </style>
-    <link rel="stylesheet" href="portfolio.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
-    <link rel="shortcut icon" href="batman.ico" type="image/x-icon">
-</head>
+    <link rel="shortcut icon" href="batman.ico" type="image/x-icon" />
+  </head>
 
-<body>
+  <body>
     <div id="main">
-        <div id="loader">
-            <div id="topheading">
-            </div>
-            <h1 class="reveal" id="game"><span>Abhishek</span> &nbsp;<span class="surname">Ranjan</span>
-            </h1>
+      <div id="loader">
+        <div id="topheading"></div>
+        <h1 class="reveal" id="game">
+          <span>Abhishek</span> &nbsp;<span class="surname">Ranjan</span>
+        </h1>
 
-
-            <div class="loader"></div>
+        <div class="loader"></div>
+      </div>
+      <div id="green"></div>
+      <div class="container" id="container">
+        <div class="sidebar sidebarGo">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="intro.html">Intro</a></li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/2112016-ranjan/"
+                  target="_blank"
+                  >Services</a
+                >
+              </li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact Me</a></li>
+              <span class="line line1"></span
+              ><span class="line line2"></span>
+            </ul>
+          </nav>
         </div>
-        <div id="green"></div>
-        <div class="container" id="container">
-
-
-            <div class="sidebar sidebarGo">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="intro.html">Intro</a></li>
-                        <li><a href="https://www.linkedin.com/in/2112016-ranjan/" target="_blank">Services</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact Me</a></li>
-                        <span class="line line1"></span><span class="line line2"></span>
-
-                    </ul>
-                </nav>
+        <div class="main">
+          <div class="hamburger">
+            <img
+              src="ham.png"
+              alt=""
+              class="ham"
+              width="23px"
+              style="filter: invert(); background-color: white"
+            />
+            <img src="cross.png" alt="" class="cross" width="23px" />
+          </div>
+          <div class="wow">
+            <div class="blogcontainer" style="font-size: x-small;">
+              <h1>Projects by Abhishek - the Legend</h1>
+              <div class="blogItem">
+                <h2>Travel Buddy</h2>
+                <p>
+                  Tech Stacks: HTML, CSS, Javascript, NodeJS, ExpressJS,
+                  MongoDB, ReactJS, Sass
+                </p>
+                <p>
+                  Developed an app featuring a calculator, currency converter,
+                  analog clock with date, random password generator, password
+                  manager, and a to-do list with full backend support.
+                  Mutli-Utility application that would help others in planning
+                  their trips.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://abhishek-ranjan-16.github.io/Travel-Buddy/"
+                >
+                  <button class="btn btn-sm">Read More</button>
+                </a>
+              </div>
+              <div class="blogItem">
+                <h2>Chattu Chat App</h2>
+                <p>
+                  Tech Stacks: MongoDB, ExpressJS, ReactJS, NodeJS, Socket IO
+                </p>
+                <p>
+                  The app features real-time messaging with group chat
+                  capabilities and instant notifications. Implemented secure
+                  user authentication, message storage, and retrieval in
+                  MongoDB. Utilized Socket.io for seamless real-time
+                  communication, ensuring immediate message delivery and
+                  updates. The app also includes notification functionality.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://chattuapp.onrender.com/"
+                >
+                  <button class="btn btn-sm">Read More</button>
+                </a>
+              </div>
+              <div class="blogItem">
+                <h2>Human vs AI Detection</h2>
+                <p>
+                  Tech Stacks: Python, BERT Model, PAN 24 Datasets, MongoDB,
+                  ExpressJS, ReactJS, NodeJS
+                </p>
+                <p>
+                  Crafted a dynamic website leveraging Python, MERN stack, and
+                  BERT model for text classification. Distinguishes human from
+                  AI-written text in real-time, trained on datasets from Kaggle,
+                  PAN 24, and ACL.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://aivshuman-nits.netlify.app/##home"
+                >
+                  <button class="btn btn-sm">Read More</button>
+                </a>
+              </div>
+              <div class="blogItem">
+                <h2>Event Management</h2>
+                <p>Tech Stacks: C++, OOPS</p>
+                <p>
+                  Engineered a comprehensive event management application
+                  entirely in C++, employing object-oriented programming (OOP)
+                  concepts. Tailored specifically for college events, the app
+                  facilitates seamless planning, organization, and execution of
+                  various campus activities. Users can create, schedule, and
+                  manage events effortlessly, with functionalities for event
+                  registration, participant management, and resource allocation.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://github.com/Abhishek-Ranjan-16/manage_event"
+                >
+                  <button class="btn btn-sm">Read More</button>
+                </a>
+              </div>
             </div>
-            <div class="main">
-                <div class="hamburger">
-                    <img src="ham.png" alt="" class="ham" width="23px"
-                        style="filter: invert(); background-color: white;">
-                    <img src="cross.png" alt="" class="cross" width="23px">
-                </div>
-                <div class="wow">
-                    <div class="blogcontainer">
-                        <h1>Projects by Abhishek - the Legend</h1>
-                        <div class="blogItem">
-                            <h2>Travel Buddy</h2>
-                            <p>Created a Currency Convertor with Analog Clock using HTML, CSS and Javascript where users
-                                can effortlessly convert currency by inputting the desired quantity and selecting the
-                                target currency. The table updates instantaneously, displaying the converted values for
-                                various currencies. This user-friendly interface streamlines the process of currency
-                                conversion and enhances financial decision-making.</p>
-                            <a target="_blank" href="https://assassinofsilchar.github.io/Travel-Buddy/">
-                                <button class="btn btn-sm">Read More</button>
-                            </a>
-                        </div> 
-                        <div class="blogItem">
-                            <h2>To Do List</h2>
-                            <p>Developed a basic To-Do List application to enhance proficiency in web development
-                                concepts and user interface design. Implemented task management features, local storage
-                                for data persistence, and a responsive design for cross-device compatibility.</p><a
-                                target="_blank" href="https://assassinofsilchar.github.io/React-Todo/">
-                                <button class="btn btn-sm">Read More</button>
-                            </a>
-                        </div>
+            <footer>
+              <div class="centerdiv">
+                <ul style="list-style: none">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/profile.php?id=100069677449894"
+                      ><i class="w fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/16_a.ranjan/"
+                      ><i class="w fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/2112016-ranjan/"
+                      ><i class="w fa-brands fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="mailto:abhiran14082002@gmail.com"
+                      ><i class="w fa-solid fa-envelope"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://www.whatsapp.com/"
+                      ><i class="w fa-brands fa-whatsapp"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://twitter.com/Ranjan2112016"
+                      ><i class="w fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://github.com/Abhishek-Ranjan-16"
+                      ><i class="w fa-brands fa-github"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </footer>
 
-
-                    </div>
-                    <footer>
-                        <div class="centerdiv">
-                            <ul style="list-style: none;">
-                                <li> <a target="_blank"
-                                        href="https://www.facebook.com/profile.php?id=100069677449894"><i
-                                            class="w fa-brands fa-facebook"></i></a></li>
-                                <li> <a target="_blank" href="https://www.instagram.com/16_a.ranjan/"><i
-                                            class="w fa-brands fa-instagram"></i></a></li>
-                                <li> <a target="_blank" href="https://www.linkedin.com/in/2112016-ranjan/"><i
-                                            class="w fa-brands fa-linkedin"></i></a></li>
-                                <li> <a target="_blank" href="mailto:abhiran14082002@gmail.com"><i
-                                            class="w fa-solid fa-envelope"></i></a></li>
-                                <li> <a target="_blank" href="https://www.whatsapp.com/"><i
-                                            class="w fa-brands fa-whatsapp"></i></a></li>
-                                <li> <a target="_blank" href="https://twitter.com/Ranjan2112016"><i
-                                            class="w fa-brands fa-twitter"></i></a></li>
-                                <li> <a target="_blank" href="https://github.com/AssassinOFsilchar"><i
-                                            class="w fa-brands fa-github"></i></a></li>
-                            </ul>
-                        </div>
-                    </footer>
-
-                    <script src="https://kit.fontawesome.com/b97891b3d7.js" crossorigin="anonymous"></script>
-
-                </div>
-            </div>
+            <script
+              src="https://kit.fontawesome.com/b97891b3d7.js"
+              crossorigin="anonymous"
+            ></script>
+          </div>
         </div>
+      </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
-        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <script src="portfoilio.js"></script>
-</body>
-
+  </body>
 </html>
